@@ -1,0 +1,299 @@
+body {
+  font-family: Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image : url('./public/pray.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin : 0
+}
+
+
+.app.light {
+  background-color: #F7E7CE;
+  color :black
+}
+
+.app.dark {
+  background-color: rgb(10, 7, 7);
+  color : rgb(252, 255, 74)
+}
+
+.theme-button {
+  background-color: blue;
+  color : white;
+  padding :15px 32px;
+  border-radius : 12px;
+  text-align: center;
+  border: 3px solid goldenrod;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-button:hover {
+  background-color: rgb(225, 255, 0);
+  color :rgb(10, 7, 7);
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color:gold ;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+nav a:hover {
+  transform: scale(1.05);
+  background-color: gold;
+}
+
+.quaran_pic{
+  background-image: url('./public/Quaran2.jpg');
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+.prayer_pic{
+  background-image: url('./public/sujood2.jpg');
+  background-size: cover;
+  background-position: center 3%;
+  background-repeat: no-repeat;
+
+}
+
+.qibla_pic{
+  background-image: url('./public/qibla.jpg');
+  background-size: cover;
+  background-position: center 3%;
+  background-repeat: no-repeat;
+
+}
+
+.hadith_pic{
+  background-image: url('./public/hadith.jpg');
+  background-size: cover;
+  background-position: center 3%;
+  background-repeat: no-repeat;
+
+}
+
+.home_pic{
+  background-image: url('./public/home.jpg');
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+}
+
+.hadith-card{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.allsurahs {
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(102, 102, 102, 0.145);
+  text-align: center;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.surah-item {
+  border : 2px solid gold;
+  display:block ;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.475);
+  color: inherit;        /* ← add this */
+  text-decoration: none;  /* ← also remove the underline while you're at it */
+}
+
+.surah-item:hover {
+  transform: scale(1.02);
+  border-color: rgba(42, 168, 210, 0.811);
+  transition: 0.2s ease;
+}
+
+
+select {
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 5px solid goldenrod;
+  max-width: 300px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.271);
+  color : inherit
+  
+}
+
+.prayer-results1{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prayer-results2{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prayer-results3{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prayer-results4{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prayer-results5{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.prayer-results6{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ayah {
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.arabic_text{
+  text-align: right;
+}
+
+.transliteration_text{
+  text-align: left;
+}
+.options{
+  color: black
+}
+
+.fatiha{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(102, 102, 102, 0.145);
+  text-align: center;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fatihaverses{
+  border : 5px solid gold;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align : center;
+  background-color: rgba(255, 255, 255, 0.271);
+}
+
+.qibla-card {
+  border: 5px solid gold;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.271);
+}
+
+.qibla-degrees {
+  font-size: 48px;
+  font-weight: bold;
+  color: inherit;
+  margin: 10px 0;
+}
+
+.qibla-detail {
+  font-size: 14px;
+  opacity: 0.8;
+}
