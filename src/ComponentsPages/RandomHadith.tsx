@@ -23,8 +23,8 @@ export function RandomHadith(){
         <div className="hadith-card">
             <p className="hadith-source">
              {data?.data.collection_name} #{data?.data.hadithnumber} — Grade: {data?.data.grade}</p>
-            <p className="hadith-arabic">{data.data.arabic}</p>
-            <p className="hadith-english">{data.data.english}</p>
+            <p className="hadith-arabic">{data?.data.arabic}</p>
+            <p className="hadith-english">{data?.data.english}</p>
         </div>
     )
 }
